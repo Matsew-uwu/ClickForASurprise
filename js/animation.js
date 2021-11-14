@@ -14,7 +14,8 @@ let emotes = [
     "./medias/ahaha.jpg",
     "./medias/aymeric.png",
     "./medias/patience.png",
-    "./medias/anglade.jpg"
+    "./medias/anglade.jpg",
+    "./medias/stepan.png",
 ];
 
 // Audio source to be played
