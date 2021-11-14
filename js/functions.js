@@ -24,7 +24,7 @@ let count;
 
 // Check if the counter is already set by localStorage
 if (localStorage.getItem('counter') === null) {
-    count = 0;
+    count = 10;
 } else {
     count = JSON.parse(localStorage.getItem('counter'));
 }
