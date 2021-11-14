@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
 
     display: inline-block;
     text-align: center;
@@ -40,6 +40,7 @@ body {
 .emote{
     width: 2em;
     height: 2em;
+	border-radius: 50%
 }
 
 
@@ -49,7 +50,7 @@ body {
 	background: #e7e7e7;
 	border: none;
 	padding: 1rem 2rem;
-	margin: 0;
+	margin: 0.5em 0;
 	position: relative;
 	display: inline-block;
 }
