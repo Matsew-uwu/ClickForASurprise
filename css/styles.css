@@ -79,6 +79,7 @@ body {
 .surprise span {
 	position: relative;
 	mix-blend-mode: difference;
+	text-align: center;
 }
 
 .surprise::before {
