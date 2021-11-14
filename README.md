@@ -8,6 +8,6 @@
 
 # What I Learned
 
-- How to use **Javascript Libraries** [GreenSock](https://greensock.com/)
+- How to use **Javascript Libraries** ([GreenSock](https://greensock.com/))
 - Basics of Javascript for front-development
 - Animate things with Javascript
