@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Snowflakes</title>
+</head>
+<body>
+    
+    <div id="root" class="container">
+        <span id="counter">Number : </span>
+        <div class="cta">
+            <button class="button" onclick="onclickIncr(counter)">Increment</button>
+            <button class="button" onclick="onclickDecr(counter)">Decrement</button>
+            <button class="button" onclick="onclickReset(counter)">Reset</button>
+        </div>  
+        <button class="button surprise" onclick="animation()"><span>Click for a surprise</span></button>      
+    </div>
+
+    <div id="emote-container">
+
+    </div>
+
+    <script src="./js/functions.js"></script>
+    <script src="./js/animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</body>
+</html>
