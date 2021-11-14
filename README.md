@@ -11,3 +11,4 @@
 - How to use **Javascript Libraries** ([GreenSock](https://greensock.com/))
 - Basics of Javascript for front-development
 - Animate things with Javascript
+- How to use localStorage and sessionStorage
