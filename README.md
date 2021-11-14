@@ -1,4 +1,4 @@
-# OccurenceCounter
+# Click For a Surprise !
 
 > Just click on the button and have fun
 
