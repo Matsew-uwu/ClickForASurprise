@@ -22,11 +22,11 @@ class Count {
 
 let count;
 
-// Check if the counter is already set by sessionStorage
-if (sessionStorage.getItem('counter') === null) {
+// Check if the counter is already set by localStorage
+if (localStorage.getItem('counter') === null) {
     count = 10;
 } else {
-    count = JSON.parse(sessionStorage.getItem('counter'));
+    count = JSON.parse(localStorage.getItem('counter'));
 }
 
 let counter = new Count(count)
@@ -35,7 +35,7 @@ let counter = new Count(count)
 const updateVue = (counter) => {
     element = document.getElementById('counter');
     element.innerHTML = `Number : ${counter.count}`
-    sessionStorage.setItem('counter', JSON.stringify(counter.count));
+    localStorage.setItem('counter', JSON.stringify(counter.count));
 }
 
 
