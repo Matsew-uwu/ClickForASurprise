@@ -38,7 +38,6 @@ const generate = () => {
 
         rpositionx = Math.floor(Math.random() * 100)
         rpositiony = Math.floor(Math.random() * 100)
-        console.log(rpositionx, rpositiony);
 
         newChild.style.left = `${rpositionx}%`;
         newChild.style.top = `${rpositiony}%`;
