@@ -18,7 +18,7 @@ let emotes = [
     "./medias/anglade.jpg",
     "./medias/stepan.png",
     "./medias/thinking.jpg",
-    "./medias/joy.jpg",
+    "./medias/joy.jpg", // remove this one after
 ];
 
 // Audio source to be played
