@@ -11,11 +11,14 @@ let intViewportWidth = window.innerWidth;
 // List of images for emotes
 let emotes = [
     "./medias/gea.png",
+    "./medias/gea2.png",
     "./medias/ahaha.jpg",
     "./medias/aymeric.png",
     "./medias/patience.png",
     "./medias/anglade.jpg",
     "./medias/stepan.png",
+    "./medias/thinking.jpg",
+    "./medias/joy.jpg",
 ];
 
 // Audio source to be played
